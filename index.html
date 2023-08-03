@@ -1,7 +1,314 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World!</h1>
-<p>This is a work in progress. Stay tuned.</p>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Andrew C. Herman, Sociologist</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/jpeg/herman_headshot.jpeg"
+              alt="Andrew C. Herman Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Andrew C. Herman</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About (and CV) </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Research
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Call me Andrew (he/him/his)</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            I am a social scientist at the University of Copenhagen (DK) doing research on how new ideas come about, what we can do to help them along, and how they affect our lives once they arrive. Most of my attention goes to institutions and how they structure the way scientists at universities and in corporate labs search for the next big thing.
+          </p><br />
+          <p class="text-primary">
+            But I also think we can learn a lot from the occasional weird case study, like that time Nazis, Fascists, and the Mafia showed up to the 1933 World's Fair in Chicago; or the automated highway technology that companies like RCA, GM, and Toyota developed from the 1950s to the 1970s.
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://orcid.org/0000-0001-7547-2481" class="home-hero__social-icon-link">
+            <img
+              src="./assets/svg/ORCIDid_iconbwvector.svg"
+              alt="icon"
+              class="home-hero__social-icon"
+              height="25"
+              width="25"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://scholar.google.com/citations?user=V1t9SvsAAAAJ" class="home-hero__social-icon-link">
+            <img
+              src="./assets/svg/Google_Scholar_logo.svg"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/andrewcherman/" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            <b>Postdoctoral Researcher</b> University of Copenhagen, Department of Sociology
+            <br /><br />
+            Most days you can either find me grinding away on a new idea of my own, or wandering around Copenhagen in search of a good nook where I can read and listen to music.
+            <br /><br />
+            Why Andrew "C." Herman? Just for fun, a shoutout to <a href="https://www.wlu.ca/academics/faculties/faculty-of-arts/faculty-profiles/andrew-herman/index.html">my fellow social scientist Andrew Herman</a>, who also does some cool work on eerily similar topics (see for instance, <a href="https://doi.org/10.4324/9781315849850">their fun piece on BlackBerry Capitalism</a>). I am entirely serious when I say this is not me. But it's first come, first served, and so here I am: Andrew C. Herman. Nice to meet you.
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Education</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                <b>Ph.D.</b> University of California, Los Angeles
+              </p>
+              <p class="about__content-details-para">
+                <b>M.A.</b> University of California, Los Angeles
+              </p>
+              <p class="about__content-details-para">
+                <b>M.A.</b> University of Chicago
+              </p>
+              <p class="about__content-details-para">
+                <b>B.A.</b> University of British Columbia
+              </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Download CV</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Research Interests</h3>
+            <div class="skills">
+              <div class="skills__skill">Innovation</div>
+              <div class="skills__skill">Science</div>
+              <div class="skills__skill">STS</div>
+              <div class="skills__skill">Political Economy</div>
+              <div class="skills__skill">Economic Sociology</div>
+              <div class="skills__skill">Political Sociology</div>
+              <div class="skills__skill">Big Data</div>
+              <div class="skills__skill">Computational Methodologies</div>
+              <div class="skills__skill">Archival Research</div>
+              <div class="skills__skill">Small-N Comparative Research</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Publications</span>
+          <span class="heading-sec__sub">
+            I maintain a full list of my publications through ORCID. You can also find the same information at Google Scholar, though I put less effort into maitaining my profile there. Those links can be found in the sidebar at the top of the page. My CV contains the same information, if you prefer the comfort of a PDF (download link above).<br /><br />
+
+            But since you came all this way, here are some recent papers of mine that I think are pretty neat.<br /><br />
+
+            <h3>Selected Research</h3>
+            Herman, A.C., Andersen, J.P. & Nielsen, M.W. "Editorial gatekeeping up and down the journal hierarchy". <i>Under Review</i>, (Forthcoming).<br /><br />
+
+            Herman, A.C.. "What is powerful about the state's discursive power? Road navigation in the United States during the technology transition to automobiles". <i>Under Review</i>, (Forthcoming).<br /><br />
+
+            Gomez, C.J., Herman, A.C. & Parigi, P. "Leading countries in global science increasingly receive more citations than other countries doing similar research". <i>Nature Human Behavior</i>,  6, 919–929 (2022). <a href='https://doi.org/10.1038/s41562-022-01351-5'>https://doi.org/10.1038/s41562-022-01351-5</a>
+          </span>
+        </h2>
+
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Research Bundles</span>
+        </h2>
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/Nobel_Prize.png"
+                alt="Nobel Prize Medallion"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Scientific Elites</h3>
+              <p class="projects__row-content-desc">
+                Science is famously top-heavy, with rewards concentrated among a small elite. How does one climb their way into this slice of the hierarchy, and how does it affect career outcomes and knowledge accumulation? Do the elite look like the rest of us? This is a project funded the Independent Research Fund Denmark. I am currently a postdoctoral researcher on the project, working with co-PIs <a href='https://www.soc.ku.dk/ansatte/professorer/?pure=da/persons/505043'>Mathias Wullum Nielsen</a> at the University of Copenhagen and <a href='https://pure.au.dk/portal/da/persons/jens-peter-andersen(b1e70d8a-0883-480d-8c07-5a7775417377).html'>Jens Peter Andersen</a> at Aarhus University. See the project website <a href='http://scientificelites.org'>here</a>.
+              </p>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/weather_balloon.jpg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Government Influence on Research</h3>
+              <p class="projects__row-content-desc">
+                Through the concentration of funding or even lab personnel, states seem to affect what research projects scientists choose to take on. But's hard to know if any of the impact was causal. This project has focused on tracking down unique counter-factual comparisons from history to better hone in on the impact governments have on knowledge accumulation and research careers. What happened to the accumulated knowledge around automated highways after the US government pulled funding in 1972? What happened to the field of meteorology when states pushed ahead when the returns to investment were murky at best? How did "small government" and "big government" affect the development of shortest-path algorithms in the 1940s and 1950s?
+              </p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            You are welcome to email me at <i>andrew.herman@soc.ku.dk</i>.<br /><br />
+
+            If for some reason you need to reach me by mail, things will get to me if you send them to:<br /><br />
+            Andrew Herman<br />
+            Department of Sociology<br />
+            University of Copenhagen<br />
+            Øster Farimagsgade 5, Bld. 16, 1.52<br />
+            DK-1014 Copenhagen K Denmark<br />
+          </span>
+        </h2>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Professional Portfolios</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/andrewcherman/#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://orcid.org/0000-0001-7547-2481">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/svg/ORCIDid_iconbwvector.svg"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://scholar.google.com/citations?user=V1t9SvsAAAAJ">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/svg/Google_Scholar_logo.svg"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Andrew C. Herman</h4>
+            <p class="main-footer__short-desc">
+              Postdoctoral Researcher<br />
+              Department of Sociology<br />
+              University of Copenhagen
+            </p>
+          </div>
+        </div>
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Template made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
 </html>
